@@ -1,8 +1,4 @@
-body {
-	background-repeat: no-repeat;
-	background-size: 100%;
-	color: white;
-}
+
 
 .header {
 	color: white;
@@ -121,7 +117,28 @@ div {
 .two {
 	border-bottom-left-radius: 5px;
 }
+
+body {
+	background-attachment: fixed;
 }
+}
+
+
+@media only screen and (max-width: 465px) {
+	.Menutext {
+	font-size: 13px; }
+
+#logo {
+	width: 20%;
+	height: auto;
+	margin-top: 25px;
+	text-align: center;
+}
+.menu {
+	height: 60px;
+}
+}
+
 
 @media only screen and (min-width: 990px) {
 	.yeee {
@@ -134,11 +151,18 @@ div {
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
+
 	.leftmost {
 	border-bottom-left-radius: 5px;
 }
 
 .rightmost {
 	border-top-right-radius: 5px;
+}
+body {
+	background-repeat: no-repeat;
+	background: url(background2.png);
+	background-size: 100%;
+	color: white;
 }
 }
