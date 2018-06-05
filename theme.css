@@ -240,13 +240,13 @@ body {
 
 
 .Slidebig:hover {
-	opacity: .9;
+	filter:brightness(150%);
 	text-shadow: #000 0px 0px 100px;
     -webkit-font-smoothing: antialiased;
 }
 
 .Slide:hover {
-	opacity: .9;
+	filter:brightness(150%);
 	text-shadow: #000 0px 0px 10px;
     -webkit-font-smoothing: antialiased;
 }
@@ -262,4 +262,31 @@ body {
 	display: inline-block;
 	margin: auto;
 	background: url(https://salvos.org.au/image?src=/scribe/sites/rockdale/files/images/red_shield_HOPE_corps2.jpg&width=643&height=415);
+}
+
+#hope {
+	width: 75%;
+	margin: 30px;
+}
+
+.jesus {
+	background: white;
+	margin: -15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#suck {
+	font-size: 50px;
+	font-family: 'Cookie', cursive;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#justendit {
+	color: white;
+	margin-left: 15px;
+}
+
+span {
 }
