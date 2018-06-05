@@ -150,13 +150,17 @@ body {
 	.Menutext {
 	font-size: 13px; }
 
-.logo {
+.tit3 {
+	font-size: 20px;
 }
 
 .menu {
 	height: 60px;
 }
 
+}
+
+@media only screen and (max-width: 465px) { 
 }
 
 
@@ -186,6 +190,15 @@ body {
 	background-size: 100%;
 	color: white;
 }
+
+.tit3 {
+	opacity: 1;
+	font-size: 50px;
+	text-shadow: #000 0px 0px 10px;
+    -webkit-font-smoothing: antialiased;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 }
 
 .hell {
@@ -224,13 +237,7 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.tit3 {
-	opacity: 1;
-	font-size: 40px;
-	text-shadow: #000 0px 0px 10px;
-    -webkit-font-smoothing: antialiased;
-	font-family: 'Roboto Condensed', sans-serif;
-}
+
 
 .Slidebig:hover {
 	opacity: .9;
