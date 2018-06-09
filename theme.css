@@ -154,9 +154,6 @@ body {
 
 }
 
-@media only screen and (max-width: 465px) { 
-}
-
 
 @media only screen and (min-width: 990px) {
 	.yeee {
@@ -397,4 +394,22 @@ body {
 	margin-top: 0px;
 	margin-bottom: 30px;
 	
+}
+.gal {
+	margin: 10px;
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	margin-right: 30px;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 465px) { 
+.gal {
+	margin: 10px;
+	width: 100px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 5px;
+}
 }
