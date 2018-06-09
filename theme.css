@@ -95,6 +95,7 @@
 	height: 500%;
 	background-color: rgb(214,19,48);
 	color: white;
+	font-size: 20px;
 }
 
 .logo {
@@ -115,19 +116,6 @@ div {
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	margin-top: 30px;
-}
-
-.righttag {
-	float: left;
-	width: 50%;
-}
-
-.lefttag {
-	float: left;
-	width: 50%;
-	text-align: left;
-	padding: 50px;
-	font-size: 20px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -180,6 +168,24 @@ body {
     padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
+}
+
+.righttag {
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+
+.lefttag {
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
 }
 
 	.leftmost {
@@ -328,10 +334,9 @@ body {
 
 .donate {
 	width: 85%;
-	background-color: #FF0000;
+	background-color: #ff7e7e;
 	height: 150px;
-	border: 5px solid #f9f9f9;
-	animation: bgColor 2s infinite linear;
+	animation: bgColor 4s infinite linear;
 	text-align: center;
 	margin: auto;
 	margin-top: 80px;
@@ -340,36 +345,56 @@ body {
 	Line-height: 150px;
 	font-family: 'Lobster', cursive;
 	border-radius: 5px;
+	color: white;
+	text-decoration: none;
 }
 
 @keyframes bgColor {
   12.5% {
-    background-color: #FF0000;
+    background-color: #ff7e7e; /*FF0000 ff3030 ff5959 ff7e7e*/
   }
   25% {
-    background-color: #ff3030;
+    background-color: #ff5959;
   }
   37.5% {
-    background-color: #ff5959;
-  }
-  50% {
-    background-color: #ff7e7e;
-  }  
-  62.5% {
-    background-color: #ff7e7e;
-  }
-  75% {
-    background-color: #ff5959;
-  }
-  87.5% {
     background-color: #ff3030;
   }
-  100% {
+  50% {
     background-color: #FF0000;
+  }  
+  62.5% {
+    background-color: #FF0000;
+  }
+  75% {
+    background-color: #ff3030;
+  }
+  87.5% {
+    background-color: #ff5959;
+  }
+  100% {
+    background-color: #ff7e7e;
   }
 }
 
 #nottodaysatan {
 	color: white;
 	text-decoration: none;
+}
+
+#sign {
+	width: 90%;
+	border-radius: 5px;
+	border: 5px solid #f9f9f9;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+#idfk {
+	width: 90%;
+	border-radius: 5px;
+	border: 5px solid #f9f9f9;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	
 }
