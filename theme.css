@@ -195,7 +195,7 @@ body {
 body {
 	background-repeat: no-repeat;
 	background-repeat: repeat-y;
-	background: url(background.png);
+	background: url(Assets/background.png);
 	background-size: 100%;
 	color: white;
 }
@@ -228,15 +228,15 @@ body {
 }
 
 .s1 {
-	background: url(slide1.png);
+	background: url(Assets/slide1.png);
 }
 
 .s2 {
-	background: url(slide2.png);
+	background: url(Assets/slide2.png);
 }
 
 .s3 {
-	background: url(slide3.png);
+	background: url(Assets/slide3.png);
 }
 
 .tit {
@@ -412,4 +412,23 @@ body {
 	object-fit: cover;
 	border-radius: 5px;
 }
+}
+
+
+.space {
+	margin-bottom: 50px;
+}
+
+.con {
+	width: 200px;
+	padding: 30px;
+}
+
+.con:hover {
+		 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: brightness(125%);
+}
+
+#shiftend {
+	margin: 50px;
 }
