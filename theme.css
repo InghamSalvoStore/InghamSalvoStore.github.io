@@ -432,3 +432,8 @@ body {
 #shiftend {
 	margin: 50px;
 }
+
+.leftalign {
+	text-align: left;
+	padding-left: 50px;
+}
